@@ -11,7 +11,7 @@ def prefix(network_mask):
         
                                                                                          
 # Here's our "unit tests".                                                                                    
-class PrefixTests(unittest.TestCase):                                                                          
+class NetworkCalcTests(unittest.TestCase):                                                                          
     def testOne(self):                                                                                        
         self.assertEqual(prefix("255.255.0.0"), 16)                                                                            
     def testTwo(self):                                                                                        
